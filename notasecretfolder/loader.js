@@ -1,1 +1,1 @@
-document.getElementById("unselectable").innerHTML = ".-.--- .-. .-.. .. -. .-."
+document.getElementById("unselectable").innerHTML = "-.. .. ... -.-. --- .-. -.. / -- . ... ... .- --. ."
