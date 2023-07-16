@@ -55,21 +55,21 @@
         header>p, section>p{
             align-items: center;
             margin-left: 20px;
-            color: white;
-            transition: color 1s ease-in-out, font-size 1s ease-in-out;
+            background-color: white;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-text-fill-color: transparent;
+            transition: background-color 1s ease-in-out, font-size 1s ease-in-out;
         }
         header>p:hover{
-            color: green;
+            background-color: green;
             font-size: 45px;
         }
         section>p:hover{
-            color: rgba(0,0,0,0);
             background-color: linear-gradient(to right, rgb(255, 159, 255), rgb(119, 0, 255));
             font-size: 45px;
-            -webkit-background-clip: text;
-            -moz-background-clip: text;
-            -webkit-text-fill-color: transparent; 
-            -moz-text-fill-color: transparent;
         }
         a{
             color: black;
