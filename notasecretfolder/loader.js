@@ -1,1 +1,1 @@
-document.getElementById("hi").innerHTML = "<div id='unselectable1'> -... .. - .-.. -.-- / ....- -.... ... ...- -... .-- --- </div><div id='unselectable2'>first 4 letters are with caps.</div><div class='blinking'>body > main > footer</div>";
+document.getElementById("hi").innerHTML = "<div id='unselectable1'> -... .. - .-.. -.-- / ....- -.... ... ...- -... .-- --- </div><div id='unselectable2'>first 4 letters of the recieved translation are with caps.</div><div class='blinking'>body > main > footer, from top to bottom.</div>";
