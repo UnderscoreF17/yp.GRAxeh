@@ -163,7 +163,7 @@
                             font-family: 'Raleway', sans-serif;
                             margin-left: 10px;
                         }
-                        #unselectable {
+                        #unselectable, #unselectable2 {
                             -webkit-touch-callout: none;
                             -webkit-user-select: none;
                             -khtml-user-select: none;
@@ -176,6 +176,7 @@
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            flex-direction: column;
                         }
                     </style>
                 </head>
@@ -185,6 +186,7 @@
                         <section>An event organised by <p>HexLabs.</p></section>
                         <footer>
                             <div id="unselectable"></div>
+                            <div id="unselectable2"></div>
                         </footer>
                     </main>
                     <script src="loader.js"></script>
