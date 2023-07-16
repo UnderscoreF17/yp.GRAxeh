@@ -1,1 +1,1 @@
-document.getElementById("unselectable").innerHTML = "-... .. - .-.. -.-- / ....- -.... ... ...- -... .-- --- </div><div id='unselectable2'>first 4 letters are with caps.</div>";
+document.getElementById("hi").innerHTML = "<div id='unselectable1'> -... .. - .-.. -.-- / ....- -.... ... ...- -... .-- --- </div><div id='unselectable2'>first 4 letters are with caps.</div><div class='blinking'>body > main > footer</div>";
