@@ -35,9 +35,19 @@
             #clickme{
                 visibility: none;
                 opacity: 0;
+                display: none;
+            }
+            #answer{
+                visibility: visible;
+                opacity: 1;
             }
         }
         @media only screen and (max-width:800px){
+            #answer{
+                visibility: none;
+                opacity: 0;
+                display: none;
+            }
             #clickme{
                 visibility: visible;
                 opacity: 1;
@@ -66,7 +76,7 @@
         <header></header>
         <!-- Checking the comments, well hm... check cybershell.gay -->
         <footer>
-            <a href="notasecretfolder/welcome.html">.</a>
+            <a href="notasecretfolder/welcome.html" id="answer">.</a>
             <a href="notasecretfolder/welcome.html" id="clickme">Click me!</a>
         </footer>
     </main>
